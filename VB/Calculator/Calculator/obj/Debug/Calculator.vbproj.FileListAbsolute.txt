@@ -1,0 +1,13 @@
+C:\Users\ajhul394\Documents\SY22-23\VB\Calculator\Calculator\bin\Debug\Calculator.exe.config
+C:\Users\ajhul394\Documents\SY22-23\VB\Calculator\Calculator\bin\Debug\Calculator.exe
+C:\Users\ajhul394\Documents\SY22-23\VB\Calculator\Calculator\bin\Debug\Calculator.pdb
+C:\Users\ajhul394\Documents\SY22-23\VB\Calculator\Calculator\bin\Debug\Calculator.xml
+C:\Users\ajhul394\Documents\SY22-23\VB\Calculator\Calculator\obj\Debug\Calculator.vbproj.AssemblyReference.cache
+C:\Users\ajhul394\Documents\SY22-23\VB\Calculator\Calculator\obj\Debug\Calculator.vbproj.SuggestedBindingRedirects.cache
+C:\Users\ajhul394\Documents\SY22-23\VB\Calculator\Calculator\obj\Debug\Calculator.Form1.resources
+C:\Users\ajhul394\Documents\SY22-23\VB\Calculator\Calculator\obj\Debug\Calculator.Resources.resources
+C:\Users\ajhul394\Documents\SY22-23\VB\Calculator\Calculator\obj\Debug\Calculator.vbproj.GenerateResource.cache
+C:\Users\ajhul394\Documents\SY22-23\VB\Calculator\Calculator\obj\Debug\Calculator.vbproj.CoreCompileInputs.cache
+C:\Users\ajhul394\Documents\SY22-23\VB\Calculator\Calculator\obj\Debug\Calculator.exe
+C:\Users\ajhul394\Documents\SY22-23\VB\Calculator\Calculator\obj\Debug\Calculator.xml
+C:\Users\ajhul394\Documents\SY22-23\VB\Calculator\Calculator\obj\Debug\Calculator.pdb
