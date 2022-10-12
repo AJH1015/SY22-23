@@ -22,7 +22,27 @@ MyGame
   resource lookups using this strongly typed resource class.
 </summary>
 </member>
+<member name="P:MyGame.My.Resources.Resources.dark_blue_background_in_polygonal_style_vector__1_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
 <member name="P:MyGame.My.Resources.Resources.donut_circle">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MyGame.My.Resources.Resources.download__1_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MyGame.My.Resources.Resources.download__1__1_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MyGame.My.Resources.Resources.download__2_">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
@@ -32,7 +52,22 @@ MyGame
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member>
+<member name="P:MyGame.My.Resources.Resources.huggy_wuggy_poppy_playtime_1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
 <member name="P:MyGame.My.Resources.Resources.Pokemonxy">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MyGame.My.Resources.Resources.untitled">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MyGame.My.Resources.Resources.untitled1">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>

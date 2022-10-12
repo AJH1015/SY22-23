@@ -1,6 +1,7 @@
 ﻿Public Class Form1
     Const Speed As Integer = 10
     Dim direction As Point
+    Dim score As Integer
 
     'This is where you can handle any collisions in the game
     '
@@ -16,23 +17,16 @@
         'Any pictureboxes whose name start with TARGET that get run into will be removed
         If p2.Name.ToUpper.StartsWith("TARGET") Then 'remove targets when they are hit
             Remove(p2)
+            score = score + 1
+            pointslabel.Text = score
         End If
-
-        'Any BULLET pictures will be removed when they collide
-        If p1.Name.ToUpper.StartsWith("BULLET") Then
-            '(don't remove them if they collide with the player - like when they start out
-            If Not p2.Name.ToUpper.StartsWith("PLAYER") Then 'remove bullets when they collide with others
-                Remove(p1)
-            End If
+        'Any picture boxes whose name starts with TARGET cannot move
+        If p2.Name.ToUpper.StartsWith("TARGET") Then 'remove targets when they are hit
+            Remove(p2)
         End If
+        'anything that runs into a wall will stop
 
-        'Anything that runs into a wall will stop
-        If p2.Name.ToUpper.StartsWith("WALL") Then
-            Return False 'don't let anything through walls
-        End If
-
-        'if none of the above happened, let the object move
-        Return True ' let it move
+        Return True
     End Function
 
     'Handle the keyboard - you could add your own keys if you wanted
@@ -51,17 +45,17 @@
             Case Keys.D
                 direction = New Point(Speed, 0)
                 moveto(Player, Speed, 0)
-            Case Keys.Space
-                'Add a bullet in the direction the player is facing
-                AddAt(BulletPictureBox2, Player.Location, direction)
+
+
         End Select
     End Sub
 
     'You can make items appear using a time
     Private Sub Timer2_Tick(sender As Object, e As EventArgs) Handles Timer2.Tick
-        '   AddAt(BulletPictureBox2, New Point(0, 0), "CHASE")
-        'AddAt(BulletPictureBox2, New Point(10, 5), "FOLLOW")
-        AddAt(BulletPictureBox2, New Point(5, 15), "RANDOM")
+
+        AddAt(Target, New Point(345, 70), New Point(0, 0))
+
+
     End Sub
 
 
@@ -70,4 +64,49 @@
         UpdateGame()
     End Sub
 
+
+
+
+
+    Dim r As New Random
+
+    Private Sub Timer3_Tick(sender As Object, e As EventArgs) Handles Timer3.Tick
+        AddAt(Target, New Point(76, 267), New Point(0, 0))
+    End Sub
+
+    Private Sub Timer4_Tick(sender As Object, e As EventArgs) Handles Timer4.Tick
+        AddAt(Target, New Point(240, 61), New Point(0, 0))
+    End Sub
+
+    Private Sub Timer5_Tick(sender As Object, e As EventArgs) Handles Timer5.Tick
+        AddAt(Target, New Point(532, 206), New Point(0, 0))
+    End Sub
+
+    Private Sub Timer6_Tick(sender As Object, e As EventArgs) Handles Timer6.Tick
+        AddAt(Target, New Point(229, 70), New Point(0, 0))
+
+    End Sub
+
+    Private Sub Timer7_Tick(sender As Object, e As EventArgs) Handles Timer7.Tick
+        AddAt(Target, New Point(67, 61), New Point(0, 0))
+
+    End Sub
+
+    Private Sub Timer8_Tick(sender As Object, e As EventArgs) Handles Timer8.Tick
+
+        AddAt(Target, New Point(347, 71), New Point(0, 0))
+    End Sub
+
+    Private Sub Timer9_Tick(sender As Object, e As EventArgs) Handles Timer9.Tick
+        AddAt(Target, New Point(532, 125), New Point(0, 0))
+    End Sub
+
+    Private Sub Timer10_Tick(sender As Object, e As EventArgs) Handles Timer10.Tick
+        AddAt(Target, New Point(219, 137), New Point(0, 0))
+    End Sub
+
+    Private Sub pointslabel_Click(sender As Object, e As EventArgs) Handles pointslabel.Click
+
+
+    End Sub
 End Class
