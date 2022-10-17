@@ -1,0 +1,13 @@
+C:\Users\ajhul394\Documents\SY22-23\VB\Looping\Looping\obj\Debug\Looping.vbproj.AssemblyReference.cache
+C:\Users\ajhul394\Documents\SY22-23\VB\Looping\Looping\obj\Debug\Looping.vbproj.SuggestedBindingRedirects.cache
+C:\Users\ajhul394\Documents\SY22-23\VB\Looping\Looping\obj\Debug\Looping.Form1.resources
+C:\Users\ajhul394\Documents\SY22-23\VB\Looping\Looping\obj\Debug\Looping.Resources.resources
+C:\Users\ajhul394\Documents\SY22-23\VB\Looping\Looping\obj\Debug\Looping.vbproj.GenerateResource.cache
+C:\Users\ajhul394\Documents\SY22-23\VB\Looping\Looping\obj\Debug\Looping.vbproj.CoreCompileInputs.cache
+C:\Users\ajhul394\Documents\SY22-23\VB\Looping\Looping\bin\Debug\Looping.exe.config
+C:\Users\ajhul394\Documents\SY22-23\VB\Looping\Looping\bin\Debug\Looping.exe
+C:\Users\ajhul394\Documents\SY22-23\VB\Looping\Looping\bin\Debug\Looping.pdb
+C:\Users\ajhul394\Documents\SY22-23\VB\Looping\Looping\bin\Debug\Looping.xml
+C:\Users\ajhul394\Documents\SY22-23\VB\Looping\Looping\obj\Debug\Looping.exe
+C:\Users\ajhul394\Documents\SY22-23\VB\Looping\Looping\obj\Debug\Looping.xml
+C:\Users\ajhul394\Documents\SY22-23\VB\Looping\Looping\obj\Debug\Looping.pdb
